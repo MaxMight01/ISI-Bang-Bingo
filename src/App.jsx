@@ -1,9 +1,13 @@
-import './App.scss';
+import React from "react";
+import BingoCard from "./components/common/BingoCard/BingoCard";
+import "./App.scss";
 
 function App() {
   return (
-    <div className='hi font-bold'>Hi</div>
+    <div>
+      <BingoCard />
+    </div>
   );
-};
+}
 
 export default App;
